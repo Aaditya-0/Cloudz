@@ -334,35 +334,10 @@ npm run lavalink:jar
 
 Starts `lavalink/Lavalink.jar` with `lavalink/application.yml`.
 
-## GitHub Notes
-
-Commit these files:
-
-```text
-src/
-lavalink/application.yml
-.env.example
-.gitignore
-.java-version
-docker-compose.yml
-eslint.config.js
-package.json
-package-lock.json
-README.md
-tsconfig.json
-LICENSE
-```
-
-Do not commit:
-
-```text
-.env
-node_modules/
-dist/
-lavalink/Lavalink.jar
-```
 
 `lavalink/Lavalink.jar` is a downloaded binary and is ignored by Git. Users should download it themselves and place it in `lavalink/Lavalink.jar`.
+
+Search for LavaLink Github and download it from there.
 
 ## Troubleshooting
 
