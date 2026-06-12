@@ -1,0 +1,32 @@
+{
+  "name": "cloudz",
+  "version": "0.1.0",
+  "description": "A Discord music bot powered by Discord.js, Shoukaku, and Lavalink.",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "lint": "eslint \"src/**/*.ts\"",
+    "deploy:commands": "tsx src/deploy-commands.ts",
+    "lavalink:jar": "java -jar lavalink/Lavalink.jar --spring.config.location=./lavalink/application.yml"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0",
+    "shoukaku": "^4.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "@types/node": "^22.15.30",
+    "eslint": "^9.28.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.33.1"
+  }
+}
